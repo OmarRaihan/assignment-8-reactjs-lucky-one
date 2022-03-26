@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import Question from '../Question/Question';
 import './Products.css'
 
 const Products = () => {
@@ -42,6 +43,11 @@ const Products = () => {
                 <div className='cart-container card shadow-lg border-0'>
                     <Cart cart={cart}></Cart>
                 </div>
+            </div>
+
+            {/* Question Section */}
+            <div>
+                <Question></Question>
             </div>
         </div>
     );

@@ -7,7 +7,6 @@
 
 .cart-info h5{
     margin-left: 10px;
-    /* margin-right: 10px; */
 }
 .cart-info p{
     margin-left: 10px;
@@ -20,9 +19,16 @@
 }
 
 .button{
-    border: 2px solid magenta;
+    border: 2px solid crimson;
     border-radius: 5px;
     background: none;
+    font-weight: 600;
+    margin-top: 25px;
+    color: crimson;
+}
+
+.button:hover{
+    background-color: cornsilk;
 }
 
 .trash{
