@@ -24,6 +24,7 @@ const Product = (props) => {
             </div>
         </div>
     );
+
 };
 
 export default Product;

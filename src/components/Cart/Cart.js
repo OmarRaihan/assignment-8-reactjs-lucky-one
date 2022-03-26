@@ -1,12 +1,22 @@
 
 import { faDeleteLeft, faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
     const {cart} = props;
-    console.log(cart);
+
+    const removeItem = cart =>{
+        console.log('remove', cart);
+        return cart = []
+    };
+
+
+    const randomData = (cart) =>{
+        let setRandom = Math.floor((Math.random() * cart.length))
+        return alert(setRandom);
+    };
 
     return (
         <div className='cart'>
@@ -29,8 +39,8 @@ const Cart = (props) => {
                 }
             </div>
             <div className='text-center ms-auto'>
-            <button className='button text-center'>Select One</button>
-            <button className='button C'>Choose Again</button>
+            <button className='button text-center' onClick={() => randomData(cart)}>Select One</button>
+            <button className='button C' onClick={() => removeItem(cart)}>Choose Again</button>
             </div>
         </div>
     );

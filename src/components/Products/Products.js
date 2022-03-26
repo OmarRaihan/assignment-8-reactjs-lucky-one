@@ -17,7 +17,6 @@ const Products = () => {
     }, []);
 
     const handleAddToCart = (product) =>{
-        // console.log(product);
         const newCart = [...cart, product];
         setCart(newCart);
     }
@@ -34,8 +33,8 @@ const Products = () => {
                 <div className="products-container">
                     {
                     products.map(product => <Product
-                    key={product.id}
                     product={product}
+                    key={product.id}
                     handleAddToCart={handleAddToCart}
                     ></Product> )
                     }

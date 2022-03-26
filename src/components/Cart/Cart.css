@@ -3,9 +3,8 @@
 .cart-info{
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgb(208, 218, 251);
     border-radius: 5px;
-    /* display: inline-block; */
 }
 
 .cart-info h5{
@@ -34,7 +33,7 @@
 }
 
 .text-center .C{
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .button:hover{
