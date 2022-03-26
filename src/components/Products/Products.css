@@ -29,12 +29,22 @@
     top: 50px;
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:640px) {
+
+    .shop-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .products-container{
         grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 50px;
+        margin: auto;
     }
 
     .cart-container{
         grid-template-columns: repeat(1, 1fr);
+        width: 350px;
+        height: 600px;
+        margin: auto;
     }
 }

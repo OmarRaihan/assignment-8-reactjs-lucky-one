@@ -3,6 +3,9 @@
 .cart-info{
     display: flex;
     align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    /* display: inline-block; */
 }
 
 .cart-info h5{
@@ -14,17 +17,24 @@
     margin-top: -5px;
 }
 .cart-info img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin: 5px 0;
 }
 
 .button{
-    border: 2px solid crimson;
+    border: 2px solid navy;
     border-radius: 5px;
     background: none;
     font-weight: 600;
     margin-top: 25px;
-    color: crimson;
+    color: navy;
+    display: flex;
+}
+
+.text-center .C{
+    margin-top: 5px;
 }
 
 .button:hover{
