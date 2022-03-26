@@ -6,7 +6,7 @@ const Product = (props) => {
     const {name, brand, price, img} = props.product;
     return (
         <div>
-            {/* <div className='product card shadow-lg border-0'>
+            <div className='product card shadow-lg border-0'>
             <img src={img} alt="" />
             <div className="product-info">
                 <h4>{name}</h4>
@@ -16,7 +16,7 @@ const Product = (props) => {
             <button className='btn-cart'>
                 <p className='align-items-center'>Add to Cart</p>
             </button>
-            </div> */}
+            </div>
         </div>
     );
 };
