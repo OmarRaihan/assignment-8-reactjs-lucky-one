@@ -5,13 +5,20 @@ import './Products.css'
 
 const Products = () => {
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect( () => {
 
         fetch('products.json')
         .then(res => res.json())
         .then(data => setProducts(data))
-    }, [])
+    }, []);
+
+    const handleAddToCart = (product) =>{
+        console.log(product);
+        const newCart = [...cart, product];
+        setCart(newCart);
+    }
 
     return (
         <div>
@@ -27,11 +34,13 @@ const Products = () => {
                     products.map(product => <Product
                     key={product.id}
                     product={product}
+                    handleAddToCart={handleAddToCart}
                     ></Product> )
                     }
                 </div>
                 <div className='cart-container card shadow-lg border-0'>
-                    <h2>Cart</h2>
+                    <h2 className='text-center'>Cart</h2>
+                    <p>{cart.length}</p>
                 </div>
             </div>
         </div>

@@ -25,6 +25,7 @@ span{
     background-color: rgb(193, 253, 227);
     border: none;
     border-radius: 0 0 10px 10px;
+    padding-top: 10px;
     position: absolute;
     bottom: 0;
 }
