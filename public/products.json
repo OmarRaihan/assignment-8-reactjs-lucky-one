@@ -1,0 +1,73 @@
+
+[
+    {
+        "id": 1, 
+        "name": " Vivobook X515MA", 
+        "brand": "ASUS", 
+        "price": 35500,
+        "img": "https://dlcdnwebimgs.asus.com/gain/2f5b0c11-ffdd-4e85-b26d-5c675b719511/w800"
+    },
+    {
+        "id": 2, 
+        "name": " Vivobook X500AB", 
+        "brand": "ASUS", 
+        "price": 39500,
+        "img": "https://dlcdnwebimgs.asus.com/gain/7ed0542b-234d-4970-85d7-39012107f96b/w800"
+    },
+    {
+        "id": 3, 
+        "name": " Vivobook X715GA", 
+        "brand": "ASUS", 
+        "price": 45500,
+        "img": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/inspiron_15_3510/media_gallery/in3510nt_cnb_00000ff090_bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,0&resMode=sharp2&size=402,402"
+    },
+    {
+        "id": 4, 
+        "name": " VivoBook 15 D515DA", 
+        "brand": "ASUS", 
+        "price": 25500,
+        "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/inspiron-15-5515/media-gallery/notebook-in5515nt-cnb-05000ff090-bl.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,0&resMode=sharp2&size=402,402"
+    },
+    {
+        "id": 5, 
+        "name": "HP 15s-du1115TU", 
+        "brand": "HP", 
+        "price": 40500,
+        "img": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/inspiron_15_3510/media_gallery/in3510nt_cnb_00000ff090_bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,0&resMode=sharp2&size=402,402"
+    },
+    {
+        "id": 6, 
+        "name": "HP 15s-du1514TU", 
+        "brand": "HP", 
+        "price": 45500,
+        "img": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/inspiron_15_3510/media_gallery/in3510nt_cnb_00000ff090_bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,0&resMode=sharp2&size=402,402"
+    },
+    {
+        "id": 7, 
+        "name": " HP 15s-du1g8u5TU", 
+        "brand": "HP", 
+        "price": 41500,
+        "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3525/media-gallery/in3525nt-cnb-00055rf110-bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,0&resMode=sharp2&size=402,402"
+    },
+    {
+        "id": 8, 
+        "name": " Inspiron 15 3510", 
+        "brand": "Dell", 
+        "price": 53500,
+        "img": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/inspiron_notebooks/inspiron_15_3510/media_gallery/in3510nt_cnb_00000ff090_bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,0&resMode=sharp2&size=402,402"
+    },
+    {
+        "id": 9, 
+        "name": " Inspiron 14 6500", 
+        "brand": "Dell", 
+        "price": 63500,
+        "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/inspiron-15-5515/media-gallery/notebook-in5515nt-cnb-05000ff090-bl.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,0&resMode=sharp2&size=402,402"
+    },
+    {
+        "id": 10, 
+        "name": " Vostro 15 3550", 
+        "brand": "Dell", 
+        "price": 58500,
+        "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/inspiron-14-5410/media-gallery/notebook-in5410nt-cnb-05000ff090-gy-backlit_fpr.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,0&resMode=sharp2&size=402,402"
+    }
+]

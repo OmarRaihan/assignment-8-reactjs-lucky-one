@@ -1,8 +1,28 @@
 
 .headline{
-    background-color: aquamarine;
+    background-color: rgb(193, 253, 227);
     height: 200px;
     margin: 20px 0;
-    border-radius: 20px;
+    border-radius: 10px;
+    position: sticky;
+}
+
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 30px;
+}
+
+.cart-container{
+    width: 350px;
+    height: 500px;
+    /* background-color: rgb(193, 253, 227); */
+    border-radius: 10px;
     position: sticky;
 }
